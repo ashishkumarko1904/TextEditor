@@ -8,6 +8,7 @@ export type CustomElement = |{ type: 'paragraph'; children: CustomText[] }
 | { type: 'list'; children: CustomList }
 | { type: 'bold'; children: CustomBoldText[]}
 
+
 //todo : later add more types ex table, video, audio etc
 export type CustomLink = { url: string; text: string; }
 
